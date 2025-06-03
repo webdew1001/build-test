@@ -16,8 +16,8 @@ function App() {
       {/* Header는 항상 보임 */}
       <Header />
       <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/sub" element={<SubPage />} />
+        <Route path="/Main" element={<MainPage />} />
+        <Route path="/" element={<SubPage />} />
       </Routes>
     </Router>
   );
